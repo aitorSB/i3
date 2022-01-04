@@ -21,6 +21,9 @@ makepkg -si
 ```
 ### Step 3
 ```sh
+sudo pacman -S alacritty
+```
+```sh
 sudo pacman -S xorg-server xorg-fonts-misc xorg-xinit xf86-video-qxl bspwm sxhkd dmenu nitrogen picom terminator chromium arandr rxvt-unicode ranger rofi firefox vlc i3-gaps --needed
 ```
 ### Step 4
@@ -69,7 +72,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 ### Step 6 Polybar theme
 ```sh
-yay -S rofi pywal calc networkmanager-dmenu
+yay -S rofi pywal calc networkmanager-dmenu mpd
 ```
 ```sh
 git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
@@ -93,4 +96,10 @@ bash ~/.config/polybar/launch.sh --shapes
 ### Step 7 ohmyzsh
 ```sh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+``` 
+Edit file .zshr and choose your theme (example "agnoster")
+
+### Step 8 tmux
+```sh
+yay -S tmux
 ``` 
