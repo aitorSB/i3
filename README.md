@@ -24,7 +24,7 @@ makepkg -si
 sudo pacman -S alacritty
 ```
 ```sh
-sudo pacman -S xorg-server xorg-fonts-misc xorg-xinit xf86-video-qxl bspwm sxhkd dmenu nitrogen picom terminator chromium arandr rxvt-unicode ranger rofi firefox vlc i3-gaps --needed
+sudo pacman -S xorg-server xorg-fonts-misc xorg-xinit xf86-video-qxl bspwm sxhkd dmenu nitrogen picom chromium arandr rxvt-unicode ranger rofi firefox vlc i3-gaps --needed
 ```
 ### Step 4
 ```sh
